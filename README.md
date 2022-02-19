@@ -10,8 +10,8 @@ A RSS scraper application which allows the users to add RSS feed Urls to a datab
 3. Initial npm <code> npm init </code>
 
 ## Running tests
-- To run headless <code> npm start --headless </code>
-- To run on browser <code> npm start </code>
+- To run on testrunner <code> npm start </code>
+- To run headless <code> npm run headless </code>
 
 ## Folder structure
 - Fixtures: Test data are stored in fixture JSON files. Two separate files are maintained for 'user' and 'feeds' data.
