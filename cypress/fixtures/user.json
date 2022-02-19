@@ -1,0 +1,19 @@
+{
+  "registered":{
+      "user1": {
+        "username":"kusumgole",
+        "password":"opopopop"
+      },
+      "user2":{
+        "username":"kusum_gole_67",
+        "password":"opopopop"
+      } 
+  },
+  "invalid":{
+      "username":{
+        "special_char": ["kusum gole", "kusum*", "$%@#@#Kusum"],
+        "long_char":"kusumgole111_kathmandu_nepaligirl"
+      },
+      "password": "kukuku"
+  }
+}
