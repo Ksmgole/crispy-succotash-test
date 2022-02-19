@@ -14,10 +14,8 @@ A RSS scraper application which allows the users to add RSS feed Urls to a datab
 - To run on browser <code> npm start </code>
 
 ## Folder structure
-- Fixtures: Test data for user and feeds are maintained in separate files.
-  * user
-  * feeds
-- Integration: All the test files are maintained inside this folder. Two main folders are created with the respective test files.
+- Fixtures: Test data are stored in fixture JSON files. Two separate files are maintained for user and feeds data.
+- Integration: All the test files are maintained inside this folder. Two main folders are created,each containing the respective test files as listed below:
    * Auth
      * Sign up
      * Login
@@ -29,4 +27,4 @@ A RSS scraper application which allows the users to add RSS feed Urls to a datab
      * Comment markdown
      * My feed
 -  Support/command.js: This file contains reusable custom commands like <code> login, addFeed, submitComment</code>.
--  Cypress.json:Config 
+-  Cypress.json:Configuration values are stored in this file.
