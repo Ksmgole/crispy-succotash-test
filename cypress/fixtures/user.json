@@ -12,7 +12,7 @@
   "invalid":{
       "username":{
         "special_char": ["kusum gole", "kusum*", "$%@#@#Kusum"],
-        "long_char":"kusumgole111_kathmandu_nepaligirl"
+        "long_char":"LoremIpsum_ipsumdolor_sitametidolo"
       },
       "password": "kukuku"
   }

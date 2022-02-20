@@ -2,9 +2,9 @@ import user from "../../fixtures/user.json"
 import feeds from "../../fixtures/feeds.json"
 
 const username = user.registered.user1.username,
-      password = user.registered.user1.password,
-      validUrl = feeds.url.valid,
-      invalidUrl = feeds.url.invalid;
+    password = user.registered.user1.password,
+    validUrl = feeds.url.valid,
+    invalidUrl = feeds.url.invalid;
 
 describe('New Feed',()=>{
 

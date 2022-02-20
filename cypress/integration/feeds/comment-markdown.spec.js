@@ -2,9 +2,8 @@ import user from "../../fixtures/user.json"
 import feeds from "../../fixtures/feeds.json"
 
 const username = user.registered.user1.username,
-      password = user.registered.user1.password,
-      feedTitle = feeds.title,
-      feedComment = feeds.comment;
+    password = user.registered.user1.password,
+    feedTitle = feeds.title;
 
 describe('Comment Markdown',()=>{
 
@@ -69,7 +68,7 @@ describe('Comment Markdown',()=>{
     it('should able to add link in the comment',()=>{
         cy.submitComment('[Example](http://example.com)')
         cy.get('#submit-id-submit').click()
-        cy.get('p a').should('have.attr', 'href','http://example.com').and('contain','Example').and('has.css','color','#0da0c1')
+        cy.get('p a').should('have.attr', 'href','http://example.com').and('contain','Example')
     })
    
     it('should able to add image in the comment',()=>{

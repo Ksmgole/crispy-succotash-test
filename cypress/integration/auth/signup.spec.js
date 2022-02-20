@@ -1,10 +1,10 @@
 import user from "../../fixtures/user.json"
 
 const validUsername = user.registered.user1.username,
-      validPassword = user.registered.user1.password,
-      invalidUsername = user.invalid.username.special_char,
-      invalidPassword = user.invalid.password,
-      usernameCharLimit = user.invalid.username.long_char;
+    validPassword = user.registered.user1.password,
+    invalidUsername = user.invalid.username.special_char,
+    invalidPassword = user.invalid.password,
+    usernameCharLimit = user.invalid.username.long_char;
 
 
 describe('User Sign Up',()=>{
@@ -18,7 +18,7 @@ describe('User Sign Up',()=>{
         cy.get('#id_password1').type(validPassword)
         cy.get('#id_password2').type(validPassword + '{enter}')
         cy.url().should('contain','/feeds')
-        cy.get('.alert-success').contains('`Great success! Enjoy :)`')
+        cy.get('.alert-success').should('contain','Great success! Enjoy :)')
     })
 
     it('should be unable to sign up with blank fields',()=>{

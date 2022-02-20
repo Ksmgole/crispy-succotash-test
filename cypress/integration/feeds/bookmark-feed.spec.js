@@ -2,10 +2,10 @@ import user from "../../fixtures/user.json"
 import feeds from "../../fixtures/feeds.json"
 
 const username1 = user.registered.user1.username,
-      password1 = user.registered.user1.password,
-      username2 = user.registered.user2.username,
-      password2 = user.registered.user2.password,
-      feedTitle = feeds.title;
+    password1 = user.registered.user1.password,
+    username2 = user.registered.user2.username,
+    password2 = user.registered.user2.password,
+    feedTitle = feeds.title;
 
 
 describe('Bookmark Feed',()=>{

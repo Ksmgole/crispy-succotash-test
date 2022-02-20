@@ -23,9 +23,6 @@ Cypress.Commands.add('unbookmarkFeed',(title)=>{
 })
 
 Cypress.Commands.add('submitComment',(comment)=>{
-    cy.get('a[href="/feeds/"]').click()
-    cy.contains(feedTitle).click()
-    cy.get('tbody > :nth-child(1) > :nth-child(1) > a').click()
     cy.get('.CodeMirror-lines').type(comment)
     cy.get('#submit-id-submit').click()
 })

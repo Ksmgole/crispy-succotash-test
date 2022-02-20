@@ -28,3 +28,9 @@ A RSS scraper application which allows the users to add RSS feed Urls to a datab
      * My feed
 -  Support/command.js: This file contains reusable custom commands like <code> login, addFeed, bookmarkFeed, unbookmarkFeed, submitComment</code>.
 -  Cypress.json:Configuration values are stored in this file.
+
+### Assumption 
+Following scenarios are assumed before starting the test
+- <code> web_comment, feed_entry, web_bookmark, feed_feed </code> tables are truncated before running <code>feeds</code> test.
+- There will be a test app hosted where that url could be used on running from CI.
+- Failed tests are actually bugs, and are reported in the test report sheet.
