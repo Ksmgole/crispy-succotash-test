@@ -1,4 +1,3 @@
-
 import user from "../../fixtures/user.json"
 
 const validUsername = user.registered.user1.username,
@@ -19,7 +18,7 @@ describe('User Sign Up',()=>{
         cy.get('#id_password1').type(validPassword)
         cy.get('#id_password2').type(validPassword + '{enter}')
         cy.url().should('contain','/feeds')
-        cy.get('.alert-success').contains('Great success! Enjoy :)')
+        cy.get('.alert-success').contains('`Great success! Enjoy :)`')
     })
 
     it('should be unable to sign up with blank fields',()=>{
