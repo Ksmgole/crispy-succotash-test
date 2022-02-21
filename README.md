@@ -6,7 +6,7 @@ A RSS scraper application which allows the users to add RSS feed Urls to a datab
 ## Installation
 1. Clone the repository <code> git clone https://github.com/Ksmgole/crispy-succotash-test/ </code>
 2. cd into the project directory <code> cd cripsy-succotash-test </code>
-3. Initial npm <code> npm init </code>
+3. Install npm <code> npm install </code>
 
 ## Running tests
 - To run on testrunner <code> npm start </code>
