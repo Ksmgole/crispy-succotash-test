@@ -13,8 +13,8 @@ A RSS scraper application which allows the users to add RSS feed Urls to a datab
 - To run headless <code> npm run build </code>
 
 ## Folder structure
-- Fixtures: Test data are stored in fixture JSON files. Two separate files are maintained for 'user' and 'feeds' data.
-- Integration: All the test files are maintained inside this folder. Two main folders are created,each containing the respective test files as listed below:
+- Fixtures: Test data are stored in fixture JSON files. Two separate files are maintained for <code> user, feeds </code> data.
+- Integration: All the test files are maintained inside this folder. Two main folders are created, each containing the respective test files as listed below:
    * Auth
      * Sign up
      * Login
