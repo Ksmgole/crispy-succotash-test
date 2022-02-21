@@ -25,7 +25,7 @@ A RSS scraper application which allows the users to add RSS feed Urls to a datab
      * Comment feed
      * Comment markdown
      * My feed
--  Support/command.js: This file contains reusable custom commands like <code> login,addFeed,bookmarkFeed,unbookmarkFeed,submitComment</code>.
+-  Support/command.js: This file contains reusable custom commands like <code> login, addFeed, bookmarkFeed, unbookmarkFeed, submitComment</code>.
 -  Cypress.json:Configuration values are stored in this file.
 
 ## Assumption 
