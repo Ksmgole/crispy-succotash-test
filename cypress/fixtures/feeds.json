@@ -14,7 +14,7 @@
             "https://www.feedforall.com/blog-feed.xml",
             "http://www.rss-specifications.com/blog-feed.xml"
         ],
-        "invalid": ["https://nu", "www.nu.nl/rss/Algemeen", "http://www.nu.nl/page.html"]
+        "invalid": ["https://nu", "www.nu.nl/rss/Algemeen", "http://example.com/page.html"]
     },
     "title":"NU - Algemeen"
 }
