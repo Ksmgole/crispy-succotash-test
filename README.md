@@ -30,5 +30,5 @@ A RSS scraper application which allows the users to add RSS feed Urls to a datab
 
 ## Assumption 
 Following scenarios are assumed before starting the test
-- <code> web_comment, feed_entry, web_bookmark, feed_feed </code> tables are truncated before running <code>feeds</code> test.
+- <code> web_comment, feed_entry, web_bookmark, feed_feed</code> tables are truncated before running <code>feeds</code> test.
 - There will be a test app hosted where the url could be used on running from CI.
